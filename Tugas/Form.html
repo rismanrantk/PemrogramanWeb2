@@ -1,0 +1,113 @@
+<!DOCTIPE HTML>
+<html>
+	<head>
+		<title> FORM REGISTER </title>
+	</head>
+	<body bgcolor="pink" text="black">
+		<h1 align="center"> Formulir Pendaftaran Divisi HIMATASKA </h1>
+		<hr/>
+	<body>
+		<form action="proses.php" method="POST"> 
+		<fieldset style="background-color:cream;">
+			
+			<h2>BIODATA PRIBADI</h2>
+			<div>
+				<label> Nama Lengkap </label>
+				<div>
+					<input type="text" name="nama" value="" size="40" />
+				</div>
+			</div>
+			<div>
+				<label for="tanggal_lahir">Tanggal Lahir</label>
+				<div>
+					<input type="date" name="tanggal_lahir" value="2001-03-01" id="tanggal_lahir" />
+				</div>
+			</div>
+			<div>
+				<label> Jenis Kelamin </label>
+				<div>
+					<input type="radio" name="jk" value="L" checked />Laki-Laki
+					<input type="radio" name="jk" value="P"  />Perempuan
+				</div>
+			</div>
+			<div>
+				<label> Agama </label>
+				<div>
+					<input type="radio" name="a" value="I" checked />Islam
+					<input type="radio" name="a" value="B"  />Budha
+					<input type="radio" name="a" value="H"  />Hindu
+					<input type="radio" name="a" value="K"  />Kristen
+					<input type="radio" name="a" value="Ka"  />Katholik
+					<input type="radio" name="a" value="Ko"  />Konghucu
+					<input type="radio" name="a" value="Ln"  />Lainnya
+				</div>
+			</div>
+			<div>
+				<label> Email </label>
+				<div>
+					<input type="text" name="email" value="" size="40" />
+				</div>
+			</div>
+			<div>
+				<label> Nomor Telepon </label>
+				<div>
+					<input type="text" name="nomor telepon" value="" size="40" />
+				</div>
+			</div>
+			<div>
+				<label> Alamat </label>
+				<div>
+					<textarea name="alamat" rows="6" cols="40"></textarea>
+				</div>
+			</div>
+			<div>
+				<label> Pengalaman Organisasi </label>
+				<div>
+					<textarea name="alamat" rows="6" cols="40"></textarea>
+				</div>
+			</div>
+			<div>
+				<label> Pilihan Pertama Divisi </label>
+				<div>
+					<select name="bidang">
+						<option value="">--Pilih--</option>
+						<option value="Divisi ADKESMA">Advokasi Kesejahteraan Mahasiswa</option>
+						<option value="Divisi PSDM">Pengembangan Sumber Daya Mahasiswa</option>
+						<option value="Divisi EKOBIS">Ekonomi dan Bisnis</option>
+						<option value="Divisi HUMED">Hubungan Masyarakat dan Multimedia</option>
+						<option value="Divisi DIMAS">Pengabdian Masyarakat</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<label> Alasan </label>
+				<div>
+					<textarea name="alasan" rows="6" cols="40"></textarea>
+				</div>
+			</div>
+			<div>
+				<label> Pilihan Kedua Divisi </label>
+				<div>
+					<select name="bidang">
+						<option value="">--Pilih--</option>
+						<option value="Divisi ADKESMA">Advokasi Kesejahteraan Mahasiswa</option>
+						<option value="Divisi PSDM">Pengembangan Sumber Daya Mahasiswa</option>
+						<option value="Divisi EKOBIS">Ekonomi dan Bisnis</option>
+						<option value="Divisi HUMED">Hubungan Masyarakat dan Multimedia</option>
+						<option value="Divisi DIMAS">Pengabdian Masyarakat</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<label> Alasan </label>
+				<div>
+					<textarea name="alasan" rows="6" cols="40"></textarea>
+				</div>
+			</div>
+		</fieldset>
+		<div>
+			<input type="Submit" value="Submit" name="Proses" />
+		</div>
+		</form>
+	</body>
+</html>
